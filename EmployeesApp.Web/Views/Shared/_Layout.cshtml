@@ -12,8 +12,8 @@
 		<h1>Employees App</h1>
 		<nav>
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/Employees/Create">Create Employee</a></li>
+				<li><a href="@Url.Action(nameof(EmployeesController.Index))">Home</a></li>
+				<li><a href="@Url.Action(nameof(EmployeesController.Create))">Create Employee</a></li>
 			</ul>
 		</nav>
 	</header>

@@ -1,7 +1,8 @@
-﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@using EmployeesApp.Web.Controllers
-@using EmployeesApp.Web.Models
-@model Employee[]
+﻿@model Employee[]
+@{
+    Layout = "_Layout";
+	ViewBag.Title = "Employees Main";
+}
 
 
     <div style="margin: 50px;">
