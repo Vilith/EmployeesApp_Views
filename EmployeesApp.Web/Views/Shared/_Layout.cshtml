@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>@ViewBag.Title</title>
+	<link rel="stylesheet" href="https://unpkg.com/@@picocss/pico@@latest/css/pico.classless.min.css">
+</head>
+<body>
+
+	<header>
+		<h1>Employees App</h1>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/Employees/Create">Create Employee</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div>
+		@RenderBody()
+	</div>
+
+	<footer>
+		<p>&copy; 2023 - Employees App</p>
+	</footer>
+</body>
+</html>
